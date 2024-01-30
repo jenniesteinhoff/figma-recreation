@@ -1,0 +1,143 @@
+
+body, html {
+    font-family: 'Roboto Regular';
+    font-size: 15px;
+    font-weight: 400;
+    padding: 20px;
+    background: linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
+    width: 1600px;
+    height: 920px;
+    letter-spacing: 1.0px;
+    
+}
+
+/*Custom Fonts*/
+@font-face { 
+    font-family: 'Circular Std'; 
+    src: url('../fonts/circular-std-medium-500.ttf'); } 
+@font-face { 
+    font-family: 'Roboto Regular'; 
+    src: url('../fonts/Roboto-Regular.ttf'); }
+@font-face { 
+    font-family: 'Roboto Bold'; 
+    src: url('../fonts/Roboto-Bold.ttf'); }
+@font-face { 
+    font-family: 'Ramaraja Regular'; 
+    src: url('../fonts/Ramaraja-Regular.ttf'); }
+
+
+    /*Header*/
+h1 {
+    font-family: 'Circular Std';
+    position: fixed;
+    top: 0px;
+    color: #824FF1;
+    margin-top: 40px;
+    margin-left: 95px;
+}
+#medi_blue {
+    color: #0A1B32;
+}
+
+/*Navigation*/
+nav, a {
+    color: #1B0A42;
+    position: fixed;
+    top: 0px;
+    float: left;
+    margin-top: 48px;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+#Home {
+    margin-left: 272px;
+    
+}
+#About {
+    margin-left: 355px;
+}
+#Blog {
+    margin-left: 439px;
+
+}
+#Contact {
+    margin-left: 510px;
+
+}
+#Sign_in {
+    margin-left: 1320px;
+
+}
+#Sign_up {
+    background-color: #824FF1;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    padding-top: 20px;
+    width: 120px;
+    height: 40px;
+    border-radius: 6px;
+    font-weight: 700;
+    margin-top: 28px;
+    margin-left: 1403px;
+
+}
+#Learn_more {
+    position: sticky;
+    background-color: #824FF1;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    padding-top: 22px;
+    width: 152px;
+    height: 42px;
+    border-radius: 6px;
+    font-weight: 700;
+    margin-top: 48px;
+    margin-left: 200px;
+}
+
+/*Paragraphs*/
+.Paragraph_one {
+    color: #1B0A42;
+    font-family: 'Ramaraja Regular';
+    font-size: 72px;
+    line-height: 76px;
+    height: 152px;
+    width: 495px;
+    margin-top: 200px;
+    margin-left: 200px;
+}
+
+.Paragraph_two {
+    color: #9A9A9A;
+    font-size: 20px;
+    line-height: 12px;
+    height: 96px;
+    width: 590px;
+    margin-top: 10px;
+    margin-left: 200px;
+}
+
+/*Image*/
+img {
+    width: 50%;
+    margin-top: -550px;
+    margin-left: 808px;
+}
+
+/*Return Page*/
+.return_page_body {
+    font-size: 25px;
+    font-variant: small-caps;
+    margin-left: 500px;
+    margin-top: 200px;
+}
+.return {
+    font-size: 25px;
+    font-variant: small-caps;
+    margin-left: 800px;
+    margin-top: 200px;
+
+}
