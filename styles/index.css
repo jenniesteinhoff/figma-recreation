@@ -40,7 +40,7 @@ h1 {
 }
 
 /*Navigation*/
-nav, a {
+nav, a, ul {
     color: #1B0A42;
     position: fixed;
     top: 0px;
@@ -113,7 +113,7 @@ nav, a {
 .Paragraph_two {
     color: #9A9A9A;
     font-size: 20px;
-    line-height: 12px;
+    line-height: 150%;
     height: 96px;
     width: 590px;
     margin-top: 10px;
